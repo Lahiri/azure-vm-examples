@@ -1,5 +1,5 @@
 # azure-vm-examples
-This repository contains code to deploy an Azure VM with a series of different tools. The purpose is to show syntax and verbosity difference and help you decide what tool adopt in your company.
+This repository contains code to deploy an Azure VM with a series of different tools. The purpose is to show syntax and verbosity difference and help you decide what tool to adopt in your company.
 
 The VM deployed in the examples has these parameters:
 
