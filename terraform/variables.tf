@@ -26,7 +26,7 @@ variable "location" {
 variable "data_disks" {
   type = map
   default = {
-      data-disk1 = {
+      Example-VM-data-disk1 = {
           account_type = "StandardSSD_LRS"
           size_gb = "128"
           lun = "0"

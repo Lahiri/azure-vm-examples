@@ -26,7 +26,7 @@ $null = Set-AzVMOperatingSystem -VM $VM -Windows -Credential $Credential -Comput
 $null = Set-AzVMSourceImage -VM $VM -PublisherName "MicrosoftWindowsServer" -Offer "WindowsServer" -Skus "2016-Datacenter" -Version "latest"
 $null = Set-AzVMOSDisk -VM $VM -StorageAccountType $StorageType -CreateOption "FromImage"
 
-$null = Add-AzVMDataDisk -VM $VM -Lun 0 -CreateOption Empty -StorageAccountType $StorageType -Name 'data-disk1' -DiskSizeInGB 128
+$null = Add-AzVMDataDisk -VM $VM -Lun 0 -CreateOption Empty -StorageAccountType $StorageType -Name $($VMName + '-data-disk1') -DiskSizeInGB 128
 
 $DeploymentParams = @{
     ResourceGroupName = $ResourceGroupName
