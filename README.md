@@ -32,7 +32,7 @@ The following table provides information about the tool used in this repository:
 
 Tool | Developer | Paradigm | Idempotent | Change Preview | Supported Platforms
 ---- | --------- | -------- | ---------- | -------------- | -------------------
-ARM Template | Microsoft | Declarative | Yes | [Yes (preview)](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-deploy-what-if){:target="_blank"} | Platform independent, requires an orchestration tool
-Terraform | Hashicorp | Declarative | Yes | [Yes](https://www.terraform.io/docs/commands/plan.html){:target="_blank"} | Windows, MacOS, Linux, FreeBSD, OpenBSD, Solaris
+ARM Template | Microsoft | Declarative | Yes | [Yes (preview)](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-deploy-what-if) | Platform independent, requires an orchestration tool
+Terraform | Hashicorp | Declarative | Yes | [Yes](https://www.terraform.io/docs/commands/plan.html) | Windows, MacOS, Linux, FreeBSD, OpenBSD, Solaris
 Azure Powershell | Microsoft | Imperative | No | No | Windows, MacOS, Linux, Web (Cloud shell)
 Azure CLI | Microsoft | Imperative | Yes | No | Windows, MacOS, Linux, Web (Cloud shell)
