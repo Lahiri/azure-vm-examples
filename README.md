@@ -1,6 +1,12 @@
-# azure-vm-examples
+# Examples of Infrastructure as Code tools for Microsoft Azure
 
-This repository contains code to deploy an Azure VM with a series of different tools. The purpose is to show syntax and verbosity difference and help you decide what tool to adopt in your company.
+This repository contains code to deploy an Azure VM with a series of different automation tools. The purpose is to show syntax and verbosity difference to help you decide what tool to adopt in your company.
+
+**Currently included:**
+- ARM Template
+- Terraform
+- Azure Powershell
+- Azure CLI
 
 ## Deployment Parameters
 The VM deployed in the examples has these parameters:
@@ -32,7 +38,7 @@ The following table provides information about the tool used in this repository:
 
 Tool | Developer | Paradigm | Idempotent | Change Preview | Supported Platforms
 ---- | --------- | -------- | ---------- | -------------- | -------------------
-ARM Template | Microsoft | Declarative | Yes | Yes (preview) | Platform independent
-Terraform | Hashicorp | Declarative | Yes | Yes | Windows, MacOS, Linux, FreeBSD, OpenBSD, Solaris
-Azure Powershell | Microsoft | Imperative | No | No | Windows, MacOS, Linux, Web (Cloud shell)
-Azure CLI | Microsoft | Imperative | Yes | No | Windows, MacOS, Linux, Web (Cloud shell)
+**ARM Template** | Microsoft | Declarative | Yes | Yes (preview) | Platform independent
+**Terraform** | Hashicorp | Declarative | Yes | Yes | Windows, MacOS, Linux, FreeBSD, OpenBSD, Solaris
+**Azure Powershell** | Microsoft | Imperative | No | No | Windows, MacOS, Linux, Web (Cloud shell)
+**Azure CLI** | Microsoft | Imperative | Yes | No | Windows, MacOS, Linux, Web (Cloud shell)
