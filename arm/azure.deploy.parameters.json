@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vmName": {
+            "value": "Example-VM"
+        },
+        "vNetName": {
+            "value": "Example-Vnet"
+        },
+        "subnetName": {
+            "value": "Example-Subnet"
+        },
+        "nicName": {
+            "value": "Example-VM-Nic"
+        },
+        "storageAccountType": {
+            "value": "StandardSSD_LRS"
+        },
+        "dataDiskSize": {
+            "value": "128"
+        },
+        "adminUsername": {
+            "value": "azure_user"
+        },
+        "licenseType": {
+            "value": "Windows_Server"
+        }
+    }
+}
