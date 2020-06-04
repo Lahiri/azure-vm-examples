@@ -1,0 +1,3 @@
+name: vm-example
+runtime: python
+description: Deploy an Azure VM with Pulumi

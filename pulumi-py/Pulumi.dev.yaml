@@ -1,0 +1,23 @@
+config:
+  azure:location: WestEurope
+  vm-example:disks:
+  - account_type: StandardSSD_LRS
+    lun: 0
+    name: Example-VM-data-disk1
+    size_gb: 128
+  vm-example:vm:
+    availability_zone: 1
+    local_admin: azure_user
+    local_admin_pw:
+      secure: AAABAFi8V6T1v5pOsLRkhhCoYt6MugcTPjgi7GIp/m12mnIEHBii7G6zEP8=
+    name: Example-VM
+    os_disk_account_type: StandardSSD_LRS
+    resource_group_name: Example-RG
+    size: Standard_DS2_v2
+    tags:
+      Application: Example
+      OS: Windows
+  vm-example:vnet:
+    name: Example-Vnet
+    resource_group_name: Example-RG
+    subnet_name: Example-Subnet
