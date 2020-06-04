@@ -5,6 +5,7 @@ This repository contains code to deploy an Azure VM with a series of different a
 **Currently included:**
 - ARM Template
 - Terraform
+- Pulumi (Python)
 - Azure Powershell
 - Azure CLI
 
@@ -36,9 +37,10 @@ All other configurations may or may not vary, as the intent of this example is n
 
 The following table provides information about the tool used in this repository:
 
-Tool | Developer | Paradigm | Idempotent | Change Preview | Supported Platforms
----- | --------- | -------- | ---------- | -------------- | -------------------
-**ARM Template** | Microsoft | Declarative | Yes | Yes (preview) | Platform independent
-**Terraform** | Hashicorp | Declarative | Yes | Yes | Windows, MacOS, Linux, FreeBSD, OpenBSD, Solaris
-**Azure Powershell** | Microsoft | Imperative | No | No | Windows, MacOS, Linux, Web (Cloud shell)
-**Azure CLI** | Microsoft | Imperative | Yes | No | Windows, MacOS, Linux, Web (Cloud shell)
+Tool | Developer | Language | Paradigm | Idempotent | Change Preview | Supported Platforms
+---- | --------- | -------- | -------- | ---------- | -------------- | -------------------
+**ARM Template** | JSON | Microsoft | Declarative | Yes | Yes (preview) | Platform independent
+**Terraform** | HCL | Hashicorp | Declarative | Yes | Yes | Windows, MacOS, Linux, FreeBSD, OpenBSD, Solaris
+**Pulumi** | Python, JavaScript, C#, TypeScript, Go | Pulumi | Declarative | Yes | Yes | Windows, MacOS, Linux
+**Azure Powershell** | Powershell | Microsoft | Imperative | No | No | Windows, MacOS, Linux, Web (Cloud shell)
+**Azure CLI** | Azure CLI | Microsoft | Imperative | Yes | No | Windows, MacOS, Linux, Web (Cloud shell)
