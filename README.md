@@ -24,7 +24,7 @@ NSG | No
 Hybrid Benefit | Yes
 OS Disk | Standard SSD
 Data Disks | 1 disk, 128 Gb StandardSSD
-VNet | Exaple-Vnet
+VNet | Example-Vnet
 Subnet | Example-Subnet
 Tags | @{OS = 'Windows'; Application = 'Example'}
 Admin user | azure_user
