@@ -21,7 +21,6 @@ for d in range(len(disks)):
 
     data_disks.append(dd)
 
-
 # Create Network Interface
 azsubnet = network.get_subnet(
     name=vnet['subnet_name'],
@@ -69,7 +68,6 @@ azvm = compute.VirtualMachine(
     license_type = "Windows_Server",
     tags = vm['tags']
     )
-
 
 # Attach data disk
 for i in range(len(data_disks)):
