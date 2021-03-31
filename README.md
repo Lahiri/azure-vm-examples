@@ -4,6 +4,7 @@ This repository contains code to deploy an Azure VM with a series of different a
 
 **Currently included:**
 - ARM Template
+- Bicep
 - Terraform
 - Pulumi (Python)
 - Azure Powershell
