@@ -39,8 +39,9 @@ The following table provides information about the tool used in this repository:
 
 Tool | Developer | Language | Paradigm | Idempotent | Change Preview | Supported Platforms
 ---- | --------- | -------- | -------- | ---------- | -------------- | -------------------
-**ARM Template** | Microsoft | JSON | Declarative | Yes | Yes (preview) | Platform independent
+**ARM Template** | Microsoft | JSON | Declarative | Yes | Yes | Platform independent
+**Bicep** | Microsoft | Bicep | Declarative | Yes | Yes | Platform independent
 **Terraform** | HashiCorp | HCL | Declarative | Yes | Yes | Windows, MacOS, Linux, FreeBSD, OpenBSD, Solaris
 **Pulumi** | Pulumi | Python, JavaScript, TypeScript, Go, .NET languages | Declarative | Yes | Yes | Windows, MacOS, Linux
 **Azure Powershell** | Microsoft | Powershell | Imperative | No | No | Windows, MacOS, Linux, Web (Cloud shell)
-**Azure CLI** | Microsoft | Azure CLI | Imperative | Yes | Yes (preview) | Windows, MacOS, Linux, Web (Cloud shell)
+**Azure CLI** | Microsoft | Azure CLI | Imperative | Yes | Yes | Windows, MacOS, Linux, Web (Cloud shell)
