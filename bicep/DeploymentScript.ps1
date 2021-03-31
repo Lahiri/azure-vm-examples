@@ -1,9 +1,8 @@
-# This script runs an ARM deployment using the template and the parameter files in the same folder.
+# This script runs a bicep deployment using the template in the same folder.
 
 $Params = @{
     ResourceGroupName     = "Example-RG"
-    TemplateFile          = "./main.bicep"
-    TemplateParameterFile = "./azure.deploy.parameters.json"
+    TemplateFile          = "./azure.deploy.json"
 }
 
 New-AzResourceGroupDeployment @Params
