@@ -45,4 +45,4 @@ Tool | Developer | Language | Paradigm | Idempotent | Change Preview | Supported
 **Terraform** | HashiCorp | HCL | Declarative | Yes | Yes | Windows, MacOS, Linux, FreeBSD, OpenBSD, Solaris
 **Pulumi** | Pulumi | Python, JavaScript, TypeScript, Go, .NET languages | Declarative | Yes | Yes | Windows, MacOS, Linux
 **Azure Powershell** | Microsoft | Powershell | Imperative | No | No | Windows, MacOS, Linux, Web (Cloud shell)
-**Azure CLI** | Microsoft | Azure CLI | Imperative | Yes | Yes | Windows, MacOS, Linux, Web (Cloud shell)
+**Azure CLI** | Microsoft | Azure CLI | Imperative | Yes | No | Windows, MacOS, Linux, Web (Cloud shell)
